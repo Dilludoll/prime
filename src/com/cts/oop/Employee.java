@@ -4,7 +4,7 @@ public class Employee {
 	private int id;
 	private String name;
 	private  int Salary;
-	public Employee(int Id, String name) {
+	public Employee(int id, String name) {
 		this.id=id;
 		this .name=name;
 	}
@@ -35,6 +35,9 @@ public void setSalary(int salary) {
 	}
 }
 
+
+
+
 }
-}
+
 

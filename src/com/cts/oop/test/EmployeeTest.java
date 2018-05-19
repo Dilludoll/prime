@@ -10,10 +10,10 @@ public class EmployeeTest {
 		System.out.println(emp.getSalary());
 	}
 	public static void main(String[] args) {
-	Employee emp=new Employee();
+	Employee emp=new Employee(122, "dillu");
 	emp.setId(121);
 	emp.setName("dilshad");
-	emp.setSalary(20000);
+	emp.setSalary(20000);                                                                                                 
 	
 } 
 }
